@@ -11,7 +11,7 @@ public class Removelast {
         strings.add("First");
         strings.add("Second");
         strings.add("Third");
-b
+
         System.out.println(strings);
 
         removeLast(strings);
