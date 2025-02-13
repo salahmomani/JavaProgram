@@ -1,15 +1,14 @@
-package Lists;
+package part3.Lists;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Greatestinlist {
+public class Sumofalist {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-
         ArrayList<Integer> list = new ArrayList<>();
-        int Great=0;
+        int sum=0;
         int number;
         while (true)
         {
@@ -18,13 +17,9 @@ public class Greatestinlist {
             list.add(number);
       }
         for(int i = 0; i < list.size(); i++) {
-             Great = list.get(0);
-            int numberloop = list.get(i);
-            if (Great <numberloop) {
-                Great= numberloop;
-            }
-        }
-        System.out.println(Great);
+             sum += list.get(i);
 
+            }
+        System.out.println(sum);
     }
 }

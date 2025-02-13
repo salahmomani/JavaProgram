@@ -1,29 +1,30 @@
-package Lists;
+package part3.Lists;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Averageofalist {
+public class Greatestinlist {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-int count=0;
-double avg=0;
+
         ArrayList<Integer> list = new ArrayList<>();
-        int sum=0;
+        int Great=0;
         int number;
         while (true)
         {
             number=in.nextInt();
             if(number==-1){break;}
             list.add(number);
-            count++;
       }
         for(int i = 0; i < list.size(); i++) {
-             sum += list.get(i);
-
+             Great = list.get(0);
+            int numberloop = list.get(i);
+            if (Great <numberloop) {
+                Great= numberloop;
             }
-        avg=1.0*sum/count;
-        System.out.println(avg);
+        }
+        System.out.println(Great);
+
     }
 }

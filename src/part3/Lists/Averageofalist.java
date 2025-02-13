@@ -1,31 +1,29 @@
-package Lists;
+package part3.Lists;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Indexof {
+public class Averageofalist {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-
+int count=0;
+double avg=0;
         ArrayList<Integer> list = new ArrayList<>();
+        int sum=0;
         int number;
         while (true)
         {
             number=in.nextInt();
             if(number==-1){break;}
             list.add(number);
+            count++;
       }
-        System.out.print("Search for? ");
-        int search=in.nextInt();
         for(int i = 0; i < list.size(); i++) {
-if(search==list.get(i))
-{
-    System.out.println(search+" is at index "+i);
-}
+             sum += list.get(i);
 
-        }
-
-
+            }
+        avg=1.0*sum/count;
+        System.out.println(avg);
     }
 }

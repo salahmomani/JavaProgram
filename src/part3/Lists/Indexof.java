@@ -1,14 +1,14 @@
-package Lists;
+package part3.Lists;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Sumofalist {
+public class Indexof {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
+
         ArrayList<Integer> list = new ArrayList<>();
-        int sum=0;
         int number;
         while (true)
         {
@@ -16,10 +16,16 @@ public class Sumofalist {
             if(number==-1){break;}
             list.add(number);
       }
+        System.out.print("Search for? ");
+        int search=in.nextInt();
         for(int i = 0; i < list.size(); i++) {
-             sum += list.get(i);
+if(search==list.get(i))
+{
+    System.out.println(search+" is at index "+i);
+}
 
-            }
-        System.out.println(sum);
+        }
+
+
     }
 }
