@@ -8,11 +8,11 @@ public class Personaldetails {
 
 
         String name;
-        int date;
+        int date=0;
         int sum=0;
         double avg=0;
         int count=0;
-        String temp=" ";
+        String temp="";
         while (true)
         {
             name=in.nextLine();
@@ -24,10 +24,10 @@ public class Personaldetails {
 sum+=date;
 
 
-//            if(name.length()>temp)
-//            {
-//                temp=name;
-//            }
+            if(temp < name.length())
+            {
+                temp=name;
+            }
 
         }
         avg=1.0*sum/count;
