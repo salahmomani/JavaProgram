@@ -23,11 +23,11 @@ public class Personaldetails {
             }
 sum+=date;
 
-
-            if(temp < name.length())
-            {
-                temp=name;
-            }
+//
+//            if(temp < name.length())
+//            {
+//                temp=name;
+//            }
 
         }
         avg=1.0*sum/count;
