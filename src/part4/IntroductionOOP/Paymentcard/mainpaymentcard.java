@@ -24,6 +24,7 @@ public class mainpaymentcard {
 //
 //        card.addMoney(-200);
 //        System.out.println(card);
+        /// /////////////part6/////////////// all above in here
         Paymentcard paulsCard = new Paymentcard(20);
         Paymentcard mattsCard = new Paymentcard(30);
         paulsCard.eatHeartily();
