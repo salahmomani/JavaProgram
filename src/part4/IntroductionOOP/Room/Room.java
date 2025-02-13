@@ -1,4 +1,4 @@
-package IntroductionOOP.Room;
+package part4.IntroductionOOP.Room;
 
 public class Room {
   private   String code;

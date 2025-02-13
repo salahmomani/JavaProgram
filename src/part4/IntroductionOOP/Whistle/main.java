@@ -1,4 +1,4 @@
-package IntroductionOOP.Whistle;
+package part4.IntroductionOOP.Whistle;
 
 public class main {
     public static void main(String[] args) {

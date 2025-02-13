@@ -1,4 +1,4 @@
-package IntroductionOOP.Dog;
+package part4.IntroductionOOP.Dog;
 
 public class Dog {
 private String name;

@@ -1,4 +1,4 @@
-package IntroductionOOP.Whistle;
+package part4.IntroductionOOP.Whistle;
 
 public class Whistle {
     private String Sound;

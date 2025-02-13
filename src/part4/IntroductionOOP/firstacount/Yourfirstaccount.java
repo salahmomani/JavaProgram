@@ -1,4 +1,4 @@
-package IntroductionOOP.firstacount;
+package part4.IntroductionOOP.firstacount;
 
 import java.util.Scanner;
 
