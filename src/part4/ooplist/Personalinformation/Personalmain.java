@@ -13,9 +13,12 @@ int ID;
         ArrayList<PersonalInformationCollection> list = new ArrayList<>();
         while (true)
         {
+            System.out.println("if you want exit loop enter No in first name");
+
             System.out.print("First name");
-          fn=in.nextLine();
-          if (fn.isEmpty()){break;}
+          fn=in.next();
+          if (fn.equals("no"))
+          {break;}
 
             System.out.print("last name");
           ln=in.nextLine();
