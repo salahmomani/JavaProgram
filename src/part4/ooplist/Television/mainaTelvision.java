@@ -13,12 +13,14 @@ public class mainaTelvision {
     ArrayList<TelevisionProgram> list = new ArrayList<>();
     int max;
     while (true) {
-        System.out.print(" name");
-        name = in.nextLine();
-        if (name.isEmpty()) {
+        System.out.println("if you want exit loop enter No in name");
+
+        System.out.print(" name :");
+        name = in.next();
+        if (name.equals("no")) {
             break;
         }
-        System.out.print(" Duration");
+        System.out.print(" Duration :");
         duration = in.nextInt();
 
         list.add(new TelevisionProgram(name, duration));

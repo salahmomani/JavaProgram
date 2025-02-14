@@ -26,9 +26,6 @@ public class TelevisionProgram {
 
     @Override
     public String toString() {
-        return "TelevisionProgram{" +
-                "name='" + name + '\'' +
-                ", Duration=" + Duration +
-                '}';
+        return name+","+Duration+" minutes";
     }
 }

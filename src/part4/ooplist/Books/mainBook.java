@@ -17,7 +17,7 @@ public class mainBook {
 
         ArrayList<Book> list = new ArrayList<>();
         while (true) {
-            System.out.println("if you want exit loop enter No");
+            System.out.println("if you want exit loop enter No in title");
             System.out.print("Title");
             title = in.next();
             if (title.equals("no")) {
