@@ -6,8 +6,8 @@ public class mainproduct {
         Product plaster = new Product("Plaster", "home improvement section");
         Product tyre = new Product("Tyre", 5);
 
-        System.out.println(tapeMeasure.toString());
-        System.out.println(plaster.toString());
-        System.out.println(tyre.toString());
+        System.out.println(tapeMeasure);
+        System.out.println(plaster);
+        System.out.println(tyre);
     }
 }
