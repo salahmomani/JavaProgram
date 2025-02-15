@@ -1,4 +1,4 @@
-package Cube;
+package part5.Cube;
 
 public class Cube {
     int edgeLength;
