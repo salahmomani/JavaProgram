@@ -1,5 +1,5 @@
-package OneMinute;
-import java.util.Timer;
+package part5.OneMinute;
+
 public class timer {
     public void advance() {
     }

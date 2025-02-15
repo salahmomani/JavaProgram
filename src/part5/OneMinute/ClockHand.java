@@ -1,4 +1,4 @@
-package OneMinute;
+package part5.OneMinute;
 
 public class ClockHand {
     private int value;

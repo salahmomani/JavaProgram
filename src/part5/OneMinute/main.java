@@ -1,4 +1,4 @@
-package OneMinute;
+package part5.OneMinute;
 public class main {
     public static void main(String[] args) throws InterruptedException {
         timer t = new timer();
