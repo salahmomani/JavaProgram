@@ -1,4 +1,4 @@
-package NullPointerException;
+package part5.Objectsandreferences.NullPointerException;
 
 public class NullPointerException {
     public static void main(String[] args) {
