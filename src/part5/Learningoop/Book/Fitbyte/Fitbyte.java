@@ -1,4 +1,4 @@
-package part5.Fitbyte;
+package part5.Learningoop.Book.Fitbyte;
 
 public class Fitbyte {
     int age;

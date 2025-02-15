@@ -1,4 +1,4 @@
-package part5.Cube;
+package part5.Learningoop.Book.Cube;
 
 public class maincube {
     public static void main(String[] args) {

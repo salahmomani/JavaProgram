@@ -1,4 +1,4 @@
-package part5.Cube;
+package part5.Learningoop.Book.Cube;
 
 public class Cube {
     int edgeLength;

@@ -1,4 +1,4 @@
-package part5.Fitbyte;
+package part5.Learningoop.Book.Fitbyte;
 
 public class mainfit {
     public static void main(String[] args) {

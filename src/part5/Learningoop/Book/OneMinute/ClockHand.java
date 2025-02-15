@@ -1,4 +1,4 @@
-package part5.OneMinute;
+package part5.Learningoop.Book.OneMinute;
 
 public class ClockHand {
     private int value;
