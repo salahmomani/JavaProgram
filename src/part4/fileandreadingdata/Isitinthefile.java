@@ -10,17 +10,14 @@ public class Isitinthefile {
 
         Scanner scanner = new Scanner(System.in);
 
-        // Ask for file name
         System.out.println("Name of the file:");
         String fileName = scanner.nextLine();
 
-        // Ask for the search string
         System.out.println("Search for:");
         String searchString = scanner.nextLine();
 
         boolean found = false;
 
-        // Try reading the file
         try (BufferedReader reader = new BufferedReader(new FileReader(fileName))) {
             String line;
             while ((line = reader.readLine()) != null) {
@@ -30,7 +27,6 @@ public class Isitinthefile {
                 }
             }
 
-            // Print result
             if (found) {
                 System.out.println("Found!");
             } else {
