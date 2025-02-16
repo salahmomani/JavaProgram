@@ -13,8 +13,8 @@ public class main {
         arr.add(10);
 linear l=new linear(bookss, 3);
 binary b=new binary(bookss,3);
-        System.out.println(b);
-        System.out.println(l);
+        System.out.println(b.toString());
+        System.out.println(l.toString());
 
     }
 }
