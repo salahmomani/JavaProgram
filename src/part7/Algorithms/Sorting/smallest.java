@@ -1,4 +1,4 @@
-package part7.Algorithms;
+package part7.Algorithms.Sorting;
 
 public class smallest {
 
