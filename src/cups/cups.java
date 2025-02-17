@@ -10,7 +10,7 @@ public class cups {
             Scanner in=new Scanner(System.in);
 
             stringValue=in.next();
-if(stringValue == "end"){
+if(stringValue.equals("end")){
     System.out.println("end");
     break;}
 intValue=Integer.parseInt(stringValue);
