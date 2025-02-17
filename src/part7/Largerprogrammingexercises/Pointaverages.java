@@ -9,8 +9,8 @@ public class Pointaverages {
         int sum = 0, count = 0;
 
         while (true) {
-            Scanner num = new Scanner(System.in);
-            int number = num.nextInt();
+            Scanner in = new Scanner(System.in);
+            int number = in.nextInt();
 
             if (number == -1) {
                 break;

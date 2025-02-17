@@ -7,10 +7,13 @@ public class Pointaverageforpointsgivingapassinggrade {
 
         int sum=0,counter=0;
         int sumval=0,count=0;
+        Scanner in= new Scanner(System.in);
+        System.out.println("enter bassing number");
+        int test=in.nextInt();
         System.out.println("Enter point -1 stops:");
+
         while (true){
-            Scanner num= new Scanner(System.in);
-            int number  = num.nextInt();
+            int number  = in.nextInt();
 
             if(number==-1){
                 break;
@@ -19,7 +22,8 @@ public class Pointaverageforpointsgivingapassinggrade {
                 sum+=number;
                 counter++;
             }
-            if (number>=50 && number<=100){
+
+            if (number>=test && number<=100){
                 sumval+=number;
                 count++;
             }
