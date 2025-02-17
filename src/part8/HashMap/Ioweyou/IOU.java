@@ -1,4 +1,4 @@
-package part8.Ioweyou;
+package part8.HashMap.Ioweyou;
 
 import java.util.HashMap;
 

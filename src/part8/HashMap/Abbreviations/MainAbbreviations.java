@@ -1,4 +1,4 @@
-package part8.HashMap;
+package part8.HashMap.Abbreviations;
 
 
 public class MainAbbreviations {

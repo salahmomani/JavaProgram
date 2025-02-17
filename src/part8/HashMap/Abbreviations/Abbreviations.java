@@ -1,6 +1,5 @@
-package part8.HashMap;
+package part8.HashMap.Abbreviations;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Abbreviations {

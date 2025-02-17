@@ -1,4 +1,4 @@
-package part8.Printmeanotherhashmap;
+package part8.HashMap.Printmeanotherhashmap;
 
 import java.util.HashMap;
 

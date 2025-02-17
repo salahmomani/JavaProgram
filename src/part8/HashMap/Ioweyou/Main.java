@@ -1,4 +1,4 @@
-package part8.Ioweyou;
+package part8.HashMap.Ioweyou;
 
 public class Main {
     public static void main(String[] args) {

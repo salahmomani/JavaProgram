@@ -1,10 +1,10 @@
-package part8.Printmeanotherhashmap;
+package part8.HashMap.Printmeanotherhashmap;
 
 
 import java.util.HashMap;
 
-import static part8.Printmeanotherhashmap.Program.printValueIfNameContains;
-import static part8.Printmeanotherhashmap.Program.printValues;
+import static part8.HashMap.Printmeanotherhashmap.Program.printValueIfNameContains;
+import static part8.HashMap.Printmeanotherhashmap.Program.printValues;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package part8.HashMap;
+package part8.HashMap.Nicknames;
 
 import java.util.HashMap;
 

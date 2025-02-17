@@ -1,9 +1,9 @@
-package part8.Printmemyhashmap;
+package part8.HashMap.Printmemyhashmap;
 
 
 import java.util.HashMap;
 
-import static part8.Printmemyhashmap.Program.*;
+import static part8.HashMap.Printmemyhashmap.Program.*;
 
 public class MainProgram {
     public static void main(String[] args) {
