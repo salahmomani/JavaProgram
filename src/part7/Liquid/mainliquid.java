@@ -14,7 +14,6 @@ public class mainliquid {
                 Scanner scan = new Scanner(System.in);
                 String input = scan.nextLine();
                 String[] parts = input.split(" ");
-
                 String command = parts[0];
                 int amount = Integer.valueOf(parts[1]);
 
