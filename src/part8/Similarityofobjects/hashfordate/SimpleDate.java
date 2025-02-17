@@ -30,9 +30,13 @@ public class SimpleDate {
 
     }
 
-//    public int hashCode(){
-//
-//    }
+    public int hashCode(){
+        int result = 17; // Start with a non-zero constant
+        result = 31 * result + day;
+        result = 31 * result + month;
+        result = 31 * result + year;
+        return result;
+    }
 
     @Override
     public String toString() {

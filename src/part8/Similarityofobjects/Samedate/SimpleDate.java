@@ -24,6 +24,7 @@ public class SimpleDate {
     }
 
         public boolean equals(SimpleDate Sd){
+
             if (this == Sd) return true;
             if (Sd == null || getClass() != Sd.getClass()) return false;
             return day == Sd.day && month == Sd.month && year == Sd.year;
