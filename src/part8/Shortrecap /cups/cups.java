@@ -1,4 +1,4 @@
-package cups;
+package part8.Shortrecap.cups;
 
 import java.util.Scanner;
 
