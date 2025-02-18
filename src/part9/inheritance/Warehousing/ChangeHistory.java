@@ -9,7 +9,7 @@ public class ChangeHistory {
     ArrayList<Double> history;
 
     public ChangeHistory(){
-        ChangeHistory changeistory =new ChangeHistory();
+//        ChangeHistory changeistory =new ChangeHistory();
     }
     public void add(double status)
     {

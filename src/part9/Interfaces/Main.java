@@ -1,4 +1,4 @@
-package part8.groupingdatausinghashmaps;
+package part9.Interfaces;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.

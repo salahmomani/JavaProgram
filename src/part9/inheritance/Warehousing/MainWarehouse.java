@@ -9,6 +9,6 @@ public class MainWarehouse {
         System.out.println(juice);
 
 
-        System.out.println(juice.history()); // [1000.0]
+        System.out.println(juice.history());
     }
 }

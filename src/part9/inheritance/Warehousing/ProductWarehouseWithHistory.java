@@ -13,7 +13,11 @@ public class ProductWarehouseWithHistory extends ProductWarehouse{
     }
     public String history() {
         ChangeHistory changehistory = new ChangeHistory();
-return  "["+changehistory.history+"]";
+         return  "["+changehistory.history+"]";
     }
+    public void addToWarehouse(double amount){
+
+    }
+
 
 }
