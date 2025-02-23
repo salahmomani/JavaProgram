@@ -1,4 +1,4 @@
-package part6.Menu;
+package part6.objectsonalist.Menu;
 
 public class mainmenu {
     public static void main(String[] args) {

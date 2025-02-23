@@ -1,4 +1,4 @@
-package part6.Menu;
+package part6.objectsonalist.Menu;
 import java.util.ArrayList;
 
 public class Menu {

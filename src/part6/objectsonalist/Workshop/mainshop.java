@@ -1,4 +1,4 @@
-package part6.Workshop;
+package part6.objectsonalist.Workshop;
 
 public class mainshop {
     public static void main(String[] args) {

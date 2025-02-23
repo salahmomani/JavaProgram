@@ -1,4 +1,4 @@
-package part6.MessagingService;
+package part6.objectsonalist.MessagingService;
 
 import java.util.ArrayList;
 

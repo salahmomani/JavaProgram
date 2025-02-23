@@ -1,4 +1,4 @@
-package part6.Stack;
+package part6.objectsonalist.Stack;
 
 public class mainstack {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package part6.PrintingaCollection;
+package part6.objectsonalist.PrintingaCollection;
 
 public class mainsimolecollection {
     public static void main(String[] args) {

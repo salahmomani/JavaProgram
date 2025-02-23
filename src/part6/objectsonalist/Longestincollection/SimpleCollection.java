@@ -1,4 +1,4 @@
-package part6.Longestincollection;
+package part6.objectsonalist.Longestincollection;
 
 import java.util.ArrayList;
 import java.util.List;

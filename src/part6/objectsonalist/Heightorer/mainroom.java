@@ -1,4 +1,4 @@
-package part6.Heightorer;
+package part6.objectsonalist.Heightorer;
 
 public class mainroom {
     public static void main(String[] args) {Room room = new Room();

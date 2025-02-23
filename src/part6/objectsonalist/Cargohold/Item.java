@@ -1,4 +1,4 @@
-package part6.Cargohold;
+package part6.objectsonalist.Cargohold;
 
 public class Item {
     private String name;

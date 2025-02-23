@@ -1,4 +1,4 @@
-package part6.Cargohold;
+package part6.objectsonalist.Cargohold;
 
 public class maincargohold {
     public static void main(String[] args) {

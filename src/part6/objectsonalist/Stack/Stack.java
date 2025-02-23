@@ -1,4 +1,4 @@
-package part6.Stack;
+package part6.objectsonalist.Stack;
 
 import java.util.ArrayList;
 

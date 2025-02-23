@@ -1,4 +1,4 @@
-package part6.Longestincollection;
+package part6.objectsonalist.Longestincollection;
 
 public class mainSC {
     public static void main(String[] args) {
