@@ -49,7 +49,7 @@ public class Person {
     public int getWeight() {
         return weight;
     }
-    public void increaseweight(){
+    public void increaseWeight(){
         this.weight=this.weight+1;
     }
     public void count(){
