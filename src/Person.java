@@ -7,7 +7,6 @@ public class Person {
         this.name = name;
         this.age = age;
     }
-
     @Override
     public String toString() {
         return name + " (" + age + " years) ";
