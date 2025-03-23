@@ -34,7 +34,7 @@ i++;
     }
 
 
-    public void func2(){
+    public void priorityFunc(){
         try {
 
             ThreadGroup parentGroup=new ThreadGroup("parentGroup");
@@ -61,7 +61,8 @@ i++;
 
     public void main(String[] args) {
       GroupThread groupThread=new GroupThread();
-//      groupThread.func();
-        groupThread.func2();
+        groupThread.func();
+        System.out.println("/////////////////////////");
+        groupThread.priorityFunc();
     }
 }
