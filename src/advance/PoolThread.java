@@ -11,8 +11,6 @@ public class PoolThread implements  Runnable{
         this.name = name;
     }
 
-
-
     @Override
     public void run() {
         System.out.println(Thread.currentThread().getName()+"name "+name);
