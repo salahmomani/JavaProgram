@@ -21,7 +21,7 @@ public class PoolThread implements  Runnable{
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        System.out.println(Thread.currentThread().getName()+"name last ");
+        System.out.println(Thread.currentThread().getName()+"name end ");
 
     }
 
