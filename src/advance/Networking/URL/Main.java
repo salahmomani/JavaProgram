@@ -8,13 +8,12 @@ public class Main {
         System.out.println("protocol "+url.getProtocol());
         System.out.println("host "+url.getHost());
         System.out.println("port "+url.getPort());
-URLConnection urlConnection=url.openConnection();
-InputStream inputStream=urlConnection.getInputStream();
-int count=0;
-while ((count=inputStream.read())!=-1)
-{
-    System.out.print((char)count);
-}
+        URLConnection urlConnection=url.openConnection();
+        InputStream inputStream=urlConnection.getInputStream();
+        int count=0;
+        while ((count=inputStream.read())!=-1) {
+            System.out.print((char)count);
+        }
 
 
     }

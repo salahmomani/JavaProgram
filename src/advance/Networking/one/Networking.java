@@ -13,7 +13,7 @@ public class Networking {
 
             InetAddress w3schools = InetAddress.getByName("www.w3schools.com");
             System.out.println("w3schools IP: " + w3schools.getHostAddress());
-            System.out.println("w3schools IP: " + w3schools.getHostName());
+            System.out.println("w3schools Host: " + w3schools.getHostName());
 
         } catch (Exception e) {
             e.printStackTrace();
