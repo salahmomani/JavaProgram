@@ -1,4 +1,4 @@
-package advance;
+package advance.Networking;
 import java.io.BufferedReader;
 import java.io.*;
 
@@ -19,7 +19,7 @@ public class Networking {
 
         try (ServerSocket server = new ServerSocket(5000)) {
             System.out.println("Server is listening on port 5000...");
-            Socket socket = server.accept(); // انتظار اتصال العميل
+            Socket socket = server.accept();
 
             BufferedReader input = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             PrintWriter output = new PrintWriter(socket.getOutputStream(), true);

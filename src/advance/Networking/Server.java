@@ -1,17 +1,17 @@
-package advance;
+package advance.Networking;
 import java.io.*;
 import java.net.*;
 public class Server {
 
     public static void main(String[] args) {
-        try (ServerSocket server = new ServerSocket(5000)) {
-            System.out.println("Server is listening on port 5000...");
+        try {
+            ServerSocket server = new ServerSocket(5000);
+            System.out.println("Server is listening on port 5000");
             Socket socket = server.accept();
-
-            BufferedReader input = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+            DataInputStream dataInputStream=new DataInputStream(socket.getInputStream());
             PrintWriter output = new PrintWriter(socket.getOutputStream(), true);
 
-            String message = input.readLine();
+            String message = dataInputStream.readLine();
             System.out.println("Client says: " + message);
             output.println("Hello, Client!");
 
